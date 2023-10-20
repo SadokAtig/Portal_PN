@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="sign.css" />
+    <title>Sign in & Sign up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="signin.php" method="post" class="sign-in-form">
+            <img class="ml" src="img/lm.png"> 
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+              <i class="fas fa-tag"></i>
+              <input type="text" placeholder="Pseudo" id="pseud" name="pseudo"/>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="mail" placeholder="E-Mail" name="mail"/>
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+          </form>
+          
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+                So pleased to see you back ! Hope you get settled in again quickly.
+            </p>
+            
+          </div>
+          <img src="img/Mobile login-bro.svg" class="image" alt="" />
+        </div>
+     
+      </div>
+    </div>
+
+    <script src="sign.js"></script>
+  </body>
+</html>
